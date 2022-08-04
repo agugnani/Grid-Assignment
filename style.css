@@ -172,7 +172,8 @@ main {
 .img {
   list-style-type: none;
   background-size: cover;
-  background: transparent url('') no-repeat 50% 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   height: 100%;
 }
 
