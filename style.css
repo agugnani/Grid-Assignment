@@ -20,13 +20,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Cereal-Light';
+  src: url(Fonts/Airbnb_Cereal-Light.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Default CSS */
 * {
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
   line-height: 1.5;
-  font-family: 'Cereal-Book';
+  font-family: 'Cereal-Light';
 }
 
 body {
@@ -58,7 +65,7 @@ h2 {
 
 /* Reusable Classes */
 main {
-  max-width: 1200px;
+  max-width: 1120px;
 }
 
 .margin-auto {
@@ -181,6 +188,26 @@ main {
 .overview .graphic {
   max-width: 56px;
 }
+
+.show-more-btn {
+  background-color: #fff;
+  color: #222;
+  border: 1px solid #222;
+  padding: 7px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  font-family: 'Cereal-Medium';
+  line-height: 1;
+}
+
+.show-more-btn:hover {
+  background-color: #f7f7f7;
+}
+
+.show-more-btn:active {}
 
 /* Images Url */
 .img-1 {
