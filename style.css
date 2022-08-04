@@ -1,0 +1,204 @@
+/* Custom fonts import */
+@font-face {
+  font-family: 'Cereal-Book';
+  src: url(Fonts/Airbnb_Cereal-Book.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cereal-Medium';
+  src: url(Fonts/Airbnb_Cereal-Medium.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cereal-Bold';
+  src: url(Fonts/Airbnb_Cereal-Bold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Default CSS */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  line-height: 1.5;
+  font-family: 'Cereal-Book';
+}
+
+body {
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-size: 1rem;
+}
+
+p, h1, h2 {
+  color: #222;
+  letter-spacing: 0.4px;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+/* Reusable Classes */
+main {
+  max-width: 1200px;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.relative {
+  position: relative;
+}
+
+/* Grid Classes */
+.grid {
+  display: grid;
+}
+
+.align-between {
+  align-content: space-between;
+}
+
+/* Flex Classes */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+/* Sections Classes */
+.about-property {
+  padding: 1.5rem 0 0;
+}
+
+.city {
+  font-size: 14px;
+  font-family: 'Cereal-Medium';
+}
+
+.share, .save {
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'Cereal-Medium';
+}
+
+.share:hover, .save:hover {
+  background-color: #f7f7f7;
+}
+
+.fa-heart {
+  text-decoration: none;
+}
+
+.grid-gallery {
+  border-radius: 12px;
+  grid-template-columns: 2fr 1fr 1fr;
+  overflow: hidden;
+  margin: 1.5rem 0 0;
+  grid-column-gap: 8px;
+}
+
+.grid.row-2, .grid.row-3 {
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 8px;
+}
+
+.row-1 .img {
+  min-height: 512px;
+}
+
+.img {
+  list-style-type: none;
+  background-size: cover;
+  background: transparent url('') no-repeat 50% 50%;
+  height: 100%;
+}
+
+.amenities {
+  grid-template-columns: 3fr 2fr;
+}
+
+.overview {
+  padding: 3rem 0 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.overview .graphic {
+  max-width: 56px;
+}
+
+/* Images Url */
+.img-1 {
+  background-image: url(Images/image-01.webp);
+}
+
+.img-2 {
+  background-image: url(Images/image-02.webp);
+}
+
+.img-3 {
+  background-image: url(Images/image-03.webp);
+}
+
+.img-4 {
+  background-image: url(Images/image-04.webp);
+}
+
+.img-5 {
+  background-image: url(Images/image-05.webp);
+}
